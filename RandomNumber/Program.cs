@@ -9,11 +9,10 @@ namespace RandomNumber
     {
         static void Main(string[] args)
         {
-
+            
             Console.Write("Hi! Bienvenidos al juego de los dados (dice game) \n");
             Console.Write("Please enter the number of times you want me to roll the dice: ");
             int diceNum = int.Parse(Console.ReadLine());
-
             Random r = new Random();
             
             int[] rollTotals = new int[12];
